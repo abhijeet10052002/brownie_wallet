@@ -1,0 +1,14 @@
+dotenv: .env
+
+networks:
+   rinkeby:
+     verify: True
+   mainnet-fork:
+     verify: False
+   development:
+     verify: False
+   ganache-local:
+     verify: False
+
+wallets:
+   from_key: ${PRIVATE_KEY}
